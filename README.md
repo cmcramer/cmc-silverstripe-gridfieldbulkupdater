@@ -22,6 +22,6 @@ $groupGridField = new GridField(
                             ->addComponent(new CmcGridFieldBulkUpdater())
 ```
 
-*lang and select all code pulled from GridFieldBulkEditingTools*
+*lang and select-all code pulled from GridFieldBulkEditingTools*
 
 
