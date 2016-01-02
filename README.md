@@ -1,13 +1,11 @@
-Allows changes to fields of multiple rows in a GridField using EditableColumns
+Allows changes to fields of multiple rows in a GridField that has GridFieldEditableColumns enabled
 
 Nothing is saved. Items are updated in CMS view-only and not saved until 'Save & Publish' button clicked.
 
 Requires silverstripe-gridfieldextensions
 https://github.com/silverstripe-australia/silverstripe-gridfieldextensions/blob/master/code/GridFieldTitleHeader.php
 
-CmcGridFieldEditGroupHeader is not used
-
-Sample GridField config
+*Sample GridField config*
 
 //Bulk updater has to come after EditableColumns or Select added in first column
 $groupGridField = new GridField(
